@@ -67,7 +67,7 @@ figure(1);
 locfile='BioSemi32.loc'; % EEGLAB-style location file for rendering scalp maps
 for c=1:3
     subplot(2,3,c);
-    topoplot(A(:,c),locfile,'electrodes','off','numcontour',0,'plotrad',0.7);
+    topoplot_new(A(:,c),locfile,'electrodes','off','numcontour',0,'plotrad',0.7);
     colormap('jet')
     subplot(2,3,c+3);
     plot(H(:,c),'k');
