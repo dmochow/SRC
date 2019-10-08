@@ -5,7 +5,7 @@ function [eegResamp,stimResamp] = alignStim2EEG(stim,indicator,fps,eegSeries,eeg
 %
 % NB: To use this function, you need at least two screen events that are
 % captured in a trigger channel that is on the same clock as the EEG.  In
-% our case, we had periodic white squares flashing periodically in the top
+% our case, we had white squares flashing periodically in the top
 % right of the screen ("flash frames").   These flashes were captured by a
 % photodiode and the timing of captures are represented by variable
 % triggerStamps (see below).
