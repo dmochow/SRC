@@ -1,4 +1,5 @@
-﻿Stimulus Response Correlation Toolbox
+Stimulus Response Correlation Toolbox
+
 Provided here is a set of Matlab functions that allow one to implement the “stimulus-response correlation” (SRC) technique of Dmochowski et al (2018).  The technique is applicable when neural activity is recorded to a stimulus that lacks the properties that are required to perform a conventional Event-Related analysis.  For example, the stimulus may be long, continuous and naturalistic, and there may only be a single repetition per subject (in contrast to the event-related design where a brief stimulus is repeated many times over).
 
 
@@ -14,6 +15,7 @@ The core function is myCanonCorr.m -- this is our regularized version of Mathwor
 The basic idea behind SRC is that the stimulus-driven neural response is correlated with some feature of the stimulus.   Here, the feature may be a time series of visual contrast or optic flow, or it could be the sound envelope waveform.  In all cases, the algorithm learns a temporal filter to apply to the stimulus, and a spatial filter to apply to the neural response, such that the filter outputs are maximally correlated.  The output is a set of components, where each component pair reflects an independent set of stimulus/response mappings.  The components are ranked in order of descending correlation, and often the bulk of the correlation is captured by just a few components.  This means that you can perform your analysis of experimental effects just confining yourself to these few dimensions.  
 
 
-Reference
+Reference:
 Dmochowski, J. P., Ki, J. J., DeGuzman, P., Sajda, P., & Parra, L. C. (2018). Extracting multidimensional stimulus-response correlations using hybrid encoding-decoding of neural activity. NeuroImage, 180, 134-146.
+
 Acknowledgments: This research was funded by the Army Research Office (ARO) Partnered Research Initiative, administered by the Army Research Laboratory (ARL) under the The Cognition and Neuroergonomics Collaborative Technology Alliance (Can-CTA)         W911-NF-10-2-0022.
