@@ -19,3 +19,5 @@ Reference:
 Dmochowski, J. P., Ki, J. J., DeGuzman, P., Sajda, P., & Parra, L. C. (2018). Extracting multidimensional stimulus-response correlations using hybrid encoding-decoding of neural activity. NeuroImage, 180, 134-146.
 
 Acknowledgments: This research was funded by the Army Research Office (ARO) Partnered Research Initiative, administered by the Army Research Laboratory (ARL) under the The Cognition and Neuroergonomics Collaborative Technology Alliance (Can-CTA)         W911-NF-10-2-0022.
+
+some changes to be ignored
